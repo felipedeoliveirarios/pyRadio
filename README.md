@@ -10,7 +10,8 @@ This server runs through 3 _main_ threads:
 In the current version, a new player thread is created every time a video is played, and then it is closed at the end of the video. Currently working on improving this behaviour.
 
 While running, the API thread receives POST requests at `localhost:5000/radio`. The requests should have `content-type: application/json` as a header and a json as the following example:
-```{
+```json
+{
     "url": "https://www.youtube.com/watch?v=NY0ffyEu6uo",
     "requester": "Anon"
 }
