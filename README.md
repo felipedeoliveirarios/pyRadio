@@ -16,6 +16,7 @@ While running, the API thread receives POST requests at `localhost:5000/radio`. 
     "requester": "Anon"
 }
 ```
+A simple form for requests may be included in future commits.
 
 ## Requirements
 Requires python3 and uses pip3 to install most dependencies. Requires an installation of VLC, which is used for the audio playback.
